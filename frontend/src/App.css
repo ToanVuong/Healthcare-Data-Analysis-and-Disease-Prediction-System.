@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  overflow-x: hidden; /* Để tránh cuộn ngang không mong muốn */
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  width: 100%;
+}
+
+a {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile h2 {
+  color: #6a5acd;
+  margin: 10px 0;
+}
+
+.profile h3 {
+  font-weight: normal;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+footer p {
+  color: #555;
+}

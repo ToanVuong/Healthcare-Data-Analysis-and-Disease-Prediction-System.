@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 93, 153);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    z-index: 1000; /* Đảm bảo header nằm trên các thành phần khác */
+    position: fixed;
+
+  }
+  .header .logo {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.header nav {
+    display: flex;
+    justify-content: space-evenly; /* Căn đều các phần tử NavLink trong container */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    padding: 0 20px; /* Thêm một ít padding để tránh các phần tử dính vào mép */
+  }
+  
+  .header1 {
+    text-decoration: none; /* Bỏ gạch dưới */
+    color: black; /* Màu chữ mặc định */
+    padding: 13px 15px; /* Khoảng cách giữa các chữ */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước */
+  }
+  
+  .header1:hover {
+    border-radius: 15px; /* Bo tròn các góc */
+    border: 0px solid transparent; /* Giữ border trong suốt khi hover để không làm thay đổi kích thước */
+    color: rgb(8, 93, 153); /* Màu chữ khi hover */
+    background-color: white; /* Màu nền khi hover */
+    text-decoration: none; /* Bỏ gạch dưới */
+
+  }
+  
+  .header1.active {
+    border: 0px solid transparent; /* Giữ border trong suốt khi hover để không làm thay đổi kích thước */
+    color: rgb(8, 93, 153); /* Màu chữ khi hover */
+    background-color: white; /* Màu nền khi hover */
+  }
+  .header .header1 {
+    font-size: 25px;
+
+  }
+  .header nav a {
+    color: white;
+    font-weight: bolder;
+  }

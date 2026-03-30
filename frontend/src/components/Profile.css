@@ -1,0 +1,92 @@
+.profile {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  
+  .profile p {
+    font-size: 1.2em;
+    color: #555;
+    
+  }
+
+  .profile .cards-container p {
+    text-align: center;
+    
+  }
+  .profile .text {
+    text-align: justify;
+    padding: 20px 40px;
+    line-height: 1.8;
+  }
+  
+  /* PredictionCards.css */
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensures all cards stretch to the same height */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .card {
+    flex: 1; /* Makes all cards take up equal width */
+    max-width: 300px; /* Optional: limits the maximum width of each card */
+    min-height: 400px; /* Set a minimum height for all cards */
+    padding: 20px;
+    margin: 0 10px; /* Adds space between cards */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out content to make height uniform */
+  }
+  
+  .card-icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto; /* Căn giữa theo chiều ngang */
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Makes the paragraph take up remaining space to help equalize height */
+  }
+  
+  .learn-more {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  
