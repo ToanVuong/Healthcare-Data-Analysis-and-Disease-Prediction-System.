@@ -6,9 +6,6 @@
 **Students:** Vuong Minh Toan (2491057), Tran Nguyen Huan (2370692)  
 **Date:** November 2024  
 **Deliverable:** Web app (React + Flask) & ML pipeline for diagnosis support  citeturn2search1
-
-> README này được tổng hợp từ báo cáo *“Intelligent System (CO5134) — Heart Disease and Stroke Diagnosis with Random Forest”* để giúp bạn đưa thẳng lên GitHub / nộp bài / bàn giao.  citeturn2search1
-
 ---
 
 ## 📌 Mục tiêu
