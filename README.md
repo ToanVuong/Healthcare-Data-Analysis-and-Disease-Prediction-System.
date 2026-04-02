@@ -117,8 +117,8 @@ npm run dev  # or npm run build && npm run preview
 
 ## 🔗 Source Code & Demo
 
-* **Source code:** (add Git/Drive link) — currently referenced as **Google Drive**.
-* **Demo:** (add link) — currently referenced as **YouTube**.
+* **Source code:** above.
+* **Demo:** DEMO.mp4
 
 ---
 
